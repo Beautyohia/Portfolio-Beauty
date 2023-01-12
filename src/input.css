@@ -2,4 +2,40 @@
 @tailwind components;
 @tailwind utilities;
 
+/* Sofia fonts import */
+@font-face {
+    font-family: "Sofia-300";
+    src: url("../dist/fonts/Sofia/Sofia\ Pro\ Light\ Az.otf");
+}
 
+
+@font-face {
+    font-family: "Sofia-400";
+    src: url("../dist/fonts/Sofia/Sofia\ Pro\ Regular.otf");
+}
+
+@font-face {
+    font-family: "Sofia-500";
+    src: url("../dist/fonts/Sofia/Sofia\ Pro\ Medium\ Az.otf");
+}
+
+@font-face {
+    font-family: "Sofia-600";
+    src: url("../dist/fonts/Sofia/Sofia\ Pro\ Semi\ Bold\ Az.otf");
+}
+
+  /* Lota fonts import */
+@font-face {
+    font-family: "Lota-300";
+    src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Light.otf");
+}
+
+@font-face {
+    font-family: "Lota-400";
+    src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Regular.otf");
+}
+
+@font-face {
+    font-family: "Lota-600";
+    src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Semi\ Bold.otf");
+}

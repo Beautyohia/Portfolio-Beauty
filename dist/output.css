@@ -646,9 +646,9 @@ video {
   margin-bottom: 2rem;
 }
 
-.my-24 {
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+.my-3 {
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
 }
 
 .ml-2 {
@@ -657,6 +657,38 @@ video {
 
 .mt-2 {
   margin-top: 0.5rem;
+}
+
+.mt-\[20\%\] {
+  margin-top: 20%;
+}
+
+.mt-\[15\%\] {
+  margin-top: 15%;
+}
+
+.mb-3 {
+  margin-bottom: 0.75rem;
+}
+
+.mb-11 {
+  margin-bottom: 2.75rem;
+}
+
+.mb-\[42px\] {
+  margin-bottom: 42px;
+}
+
+.mb-10 {
+  margin-bottom: 2.5rem;
+}
+
+.mb-9 {
+  margin-bottom: 2.25rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .block {
@@ -681,6 +713,26 @@ video {
 
 .h-full {
   height: 100%;
+}
+
+.h-2 {
+  height: 0.5rem;
+}
+
+.h-32 {
+  height: 8rem;
+}
+
+.h-20 {
+  height: 5rem;
+}
+
+.h-10 {
+  height: 2.5rem;
+}
+
+.h-8 {
+  height: 2rem;
 }
 
 .w-1\/2 {
@@ -713,6 +765,10 @@ video {
   max-width: 48rem;
 }
 
+.max-w-xs {
+  max-width: 20rem;
+}
+
 .-translate-x-1\/2 {
   --tw-translate-x: -50%;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -743,10 +799,6 @@ video {
   justify-items: end;
 }
 
-.justify-items-center {
-  justify-items: center;
-}
-
 .gap-20 {
   gap: 5rem;
 }
@@ -757,6 +809,22 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-8 {
+  gap: 2rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
 }
 
 .gap-y-4 {
@@ -786,7 +854,7 @@ video {
 
 .bg-black {
   --tw-bg-opacity: 1;
-  background-color: rgb(30 30 30 / var(--tw-bg-opacity));
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
 }
 
 .p-4 {
@@ -803,12 +871,36 @@ video {
   padding-bottom: 1rem;
 }
 
+.py-3 {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.px-4 {
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
 
 .pb-20 {
   padding-bottom: 5rem;
+}
+
+.pb-8 {
+  padding-bottom: 2rem;
 }
 
 .text-center {
@@ -821,6 +913,18 @@ video {
 
 .font-Lota300 {
   font-family: Lota-300;
+}
+
+.font-Sofia300 {
+  font-family: Sofia-300;
+}
+
+.font-Sofia600 {
+  font-family: Sofia-600;
+}
+
+.font-Sofia500 {
+  font-family: Sofia-500;
 }
 
 .text-4xl {
@@ -836,12 +940,12 @@ video {
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-}
-
 .text-3xl {
   font-size: 1.953rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
 }
 
 .font-semibold {
@@ -856,8 +960,16 @@ video {
   font-weight: 100;
 }
 
+.font-black {
+  font-weight: 900;
+}
+
 .leading-tight {
   line-height: 1.25;
+}
+
+.leading-8 {
+  line-height: 2rem;
 }
 
 .tracking-\[-0\.01em\] {
@@ -876,7 +988,7 @@ video {
 
 .text-black {
   --tw-text-opacity: 1;
-  color: rgb(30 30 30 / var(--tw-text-opacity));
+  color: rgb(0 0 0 / var(--tw-text-opacity));
 }
 
 /* Sofia fonts import */
@@ -990,8 +1102,16 @@ body {
     display: flex;
   }
 
+  .md\:h-full {
+    height: 100%;
+  }
+
   .md\:w-full {
     width: 100%;
+  }
+
+  .md\:max-w-full {
+    max-width: 100%;
   }
 
   .md\:grid-cols-2 {
@@ -1008,6 +1128,14 @@ body {
 
   .md\:gap-4 {
     gap: 1rem;
+  }
+
+  .md\:gap-0 {
+    gap: 0px;
+  }
+
+  .md\:gap-5 {
+    gap: 1.25rem;
   }
 
   .md\:self-end {
@@ -1057,6 +1185,14 @@ body {
     margin-bottom: 2.5rem;
   }
 
+  .lg\:block {
+    display: block;
+  }
+
+  .lg\:h-full {
+    height: 100%;
+  }
+
   .lg\:min-h-\[90\%\] {
     min-height: 90%;
   }
@@ -1085,16 +1221,12 @@ body {
     gap: 1.75rem;
   }
 
-  .lg\:gap-8 {
-    gap: 2rem;
-  }
-
-  .lg\:gap-5 {
-    gap: 1.25rem;
-  }
-
   .lg\:gap-3 {
     gap: 0.75rem;
+  }
+
+  .lg\:gap-0 {
+    gap: 0px;
   }
 
   .lg\:px-16 {
@@ -1125,5 +1257,19 @@ body {
 
   .lg\:text-3xl {
     font-size: 1.953rem;
+  }
+
+  .lg\:leading-8 {
+    line-height: 2rem;
+  }
+
+  .lg\:leading-10 {
+    line-height: 2.5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .\32xl\:justify-between {
+    justify-content: space-between;
   }
 }

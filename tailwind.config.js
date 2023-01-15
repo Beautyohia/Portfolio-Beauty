@@ -23,7 +23,7 @@ module.exports = {
         "5xl": "3.052rem",
       },
       colors: {
-        black: "#1e1e1e",
+        bgblack: "#1e1e1e",
         active: "#2A95AB",
         orange: "#F25F11",
       },

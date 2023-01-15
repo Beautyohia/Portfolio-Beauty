@@ -4,38 +4,80 @@
 
 /* Sofia fonts import */
 @font-face {
-    font-family: "Sofia-300";
-    src: url("../dist/fonts/Sofia/Sofia\ Pro\ Light\ Az.otf");
-}
-
-
-@font-face {
-    font-family: "Sofia-400";
-    src: url("../dist/fonts/Sofia/Sofia\ Pro\ Regular.otf");
+  font-family: "Sofia-300";
+  src: url("../dist/fonts/Sofia/Sofia\ Pro\ Light\ Az.otf");
 }
 
 @font-face {
-    font-family: "Sofia-500";
-    src: url("../dist/fonts/Sofia/Sofia\ Pro\ Medium\ Az.otf");
+  font-family: "Sofia-400";
+  src: url("../dist/fonts/Sofia/Sofia\ Pro\ Regular.otf");
 }
 
 @font-face {
-    font-family: "Sofia-600";
-    src: url("../dist/fonts/Sofia/Sofia\ Pro\ Semi\ Bold\ Az.otf");
-}
-
-  /* Lota fonts import */
-@font-face {
-    font-family: "Lota-300";
-    src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Light.otf");
+  font-family: "Sofia-500";
+  src: url("../dist/fonts/Sofia/Sofia\ Pro\ Medium\ Az.otf");
 }
 
 @font-face {
-    font-family: "Lota-400";
-    src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Regular.otf");
+  font-family: "Sofia-600";
+  src: url("../dist/fonts/Sofia/Sofia\ Pro\ Semi\ Bold\ Az.otf");
+}
+
+/* Lota fonts import */
+@font-face {
+  font-family: "Lota-300";
+  src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Light.otf");
 }
 
 @font-face {
-    font-family: "Lota-600";
-    src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Semi\ Bold.otf");
+  font-family: "Lota-400";
+  src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Regular.otf");
+}
+
+@font-face {
+  font-family: "Lota-600";
+  src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Semi\ Bold.otf");
+}
+
+body {
+  background: #1e1e1e;
+  min-height: 100vh;
+  height: 800px;
+  display: flex;
+  justify-content: center;
+}
+
+.know-more {
+  background: #ffce00;
+  border-radius: 126.496px 126.496px 0px 126.496px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 45px;
+
+  width: 90%;
+  max-width: 270px;
+  /* width: 50%; */
+}
+
+.portfolio {
+  background: #00f0ff;
+  border-radius: 41.6033px 29.2347px 46.1009px 213.638px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 250px;
+  padding: 45px 0px;
+}
+
+.about {
+  background: #f25f11;
+  border-radius: 58.4695px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
+  max-width: 190px;
+  padding: 45px;
 }

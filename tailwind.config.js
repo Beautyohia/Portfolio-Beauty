@@ -3,7 +3,7 @@ module.exports = {
   content: ["./dist/**/*.{html,js}"],
   theme: {
     extend: {
-      fontFamily:{
+      fontFamily: {
         Sofia300: ["Sofia-300"],
         Sofia400: ["Sofia-400"],
         Sofia500: ["Sofia-500"],
@@ -12,10 +12,25 @@ module.exports = {
         Lota400: ["Lota-400"],
         Lota600: ["Lota-600"],
       },
+      fontSize: {
+        sm: "0.8rem",
+        base: "1rem",
+        xl: "1.25rem",
+        h1: "80px",
+        "2xl": "24px",
+        "3xl": "1.953rem",
+        "4xl": "36px ",
+        "5xl": "3.052rem",
+      },
+      colors: {
+        black: "#1e1e1e",
+      },
+      gridTemplateColumns: {
+        menu: "200px 190px",
+      },
     },
   },
   plugins: [],
-}
-
+};
 
 // use this when starting the project 'npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch' for live sync

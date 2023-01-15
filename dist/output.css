@@ -618,8 +618,16 @@ video {
   order: 1;
 }
 
+.col-start-2 {
+  grid-column-start: 2;
+}
+
 .row-span-2 {
   grid-row: span 2 / span 2;
+}
+
+.row-start-2 {
+  grid-row-start: 2;
 }
 
 .m-2 {
@@ -934,6 +942,10 @@ body {
 
   .md\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .md\:grid-rows-2 {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
   }
 
   .md\:gap-4 {

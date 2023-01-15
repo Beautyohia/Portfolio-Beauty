@@ -87,3 +87,7 @@ body {
   background-color: #1d1e2c;
   border-radius: 30px;
 }
+
+.hireBtn {
+  border-radius: 15px 5px;
+}

@@ -700,16 +700,20 @@ video {
   height: 2.5rem;
 }
 
-.h-8 {
-  height: 2rem;
-}
-
 .h-\[90\%\] {
   height: 90%;
 }
 
 .h-full {
   height: 100%;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.max-h-screen {
+  max-height: 100vh;
 }
 
 .w-6 {
@@ -750,6 +754,10 @@ video {
   max-width: 20rem;
 }
 
+.max-w-\[200px\] {
+  max-width: 200px;
+}
+
 .max-w-3xl {
   max-width: 48rem;
 }
@@ -784,6 +792,10 @@ video {
   align-items: baseline;
 }
 
+.justify-center {
+  justify-content: center;
+}
+
 .justify-between {
   justify-content: space-between;
 }
@@ -802,6 +814,10 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-4 {
+  gap: 1rem;
 }
 
 .gap-2 {
@@ -828,6 +844,10 @@ video {
   justify-self: end;
 }
 
+.justify-self-center {
+  justify-self: center;
+}
+
 .bg-black {
   --tw-bg-opacity: 1;
   background-color: rgb(0 0 0 / var(--tw-bg-opacity));
@@ -840,6 +860,16 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.px-3 {
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+}
+
+.py-2 {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .px-4 {
@@ -862,16 +892,6 @@ video {
   padding-right: 1.5rem;
 }
 
-.py-2 {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-}
-
-.px-3 {
-  padding-left: 0.75rem;
-  padding-right: 0.75rem;
-}
-
 .pt-10 {
   padding-top: 2.5rem;
 }
@@ -888,16 +908,16 @@ video {
   text-align: center;
 }
 
+.font-Sofia500 {
+  font-family: Sofia-500;
+}
+
 .font-Sofia600 {
   font-family: Sofia-600;
 }
 
 .font-Sofia300 {
   font-family: Sofia-300;
-}
-
-.font-Sofia500 {
-  font-family: Sofia-500;
 }
 
 .font-Sofia400 {
@@ -933,6 +953,10 @@ video {
   font-size: 1.953rem;
 }
 
+.text-5xl {
+  font-size: 3.052rem;
+}
+
 .font-semibold {
   font-weight: 600;
 }
@@ -947,6 +971,10 @@ video {
 
 .font-thin {
   font-weight: 100;
+}
+
+.uppercase {
+  text-transform: uppercase;
 }
 
 .leading-tight {
@@ -1087,10 +1115,6 @@ body {
     display: flex;
   }
 
-  .md\:h-full {
-    height: 100%;
-  }
-
   .md\:w-full {
     width: 100%;
   }
@@ -1109,6 +1133,14 @@ body {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem;
+  }
+
+  .md\:gap-7 {
+    gap: 1.75rem;
   }
 
   .md\:gap-5 {
@@ -1131,6 +1163,11 @@ body {
   .md\:py-9 {
     padding-top: 2.25rem;
     padding-bottom: 2.25rem;
+  }
+
+  .md\:px-3 {
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
   }
 
   .md\:text-lg {
@@ -1164,6 +1201,10 @@ body {
   .lg\:my-10 {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;
+  }
+
+  .lg\:mt-16 {
+    margin-top: 4rem;
   }
 
   .lg\:block {
@@ -1204,6 +1245,10 @@ body {
 
   .lg\:gap-3 {
     gap: 0.75rem;
+  }
+
+  .lg\:self-end {
+    align-self: flex-end;
   }
 
   .lg\:px-20 {

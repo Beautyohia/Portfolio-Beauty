@@ -626,6 +626,10 @@ video {
   margin-top: 1rem;
 }
 
+.mt-10 {
+  margin-top: 2.5rem;
+}
+
 .mt-20 {
   margin-top: 5rem;
 }
@@ -636,10 +640,6 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
-}
-
-.mt-10 {
-  margin-top: 2.5rem;
 }
 
 .mt-2 {
@@ -674,6 +674,14 @@ video {
   margin-left: 0.5rem;
 }
 
+.ml-3 {
+  margin-left: 0.75rem;
+}
+
+.ml-4 {
+  margin-left: 1rem;
+}
+
 .block {
   display: block;
 }
@@ -684,10 +692,6 @@ video {
 
 .grid {
   display: grid;
-}
-
-.contents {
-  display: contents;
 }
 
 .hidden {
@@ -702,6 +706,10 @@ video {
   height: 2.5rem;
 }
 
+.h-\[40px\] {
+  height: 40px;
+}
+
 .h-\[95px\] {
   height: 95px;
 }
@@ -712,10 +720,6 @@ video {
 
 .h-\[44px\] {
   height: 44px;
-}
-
-.h-\[40px\] {
-  height: 40px;
 }
 
 .h-\[90\%\] {
@@ -746,6 +750,10 @@ video {
   width: 2.5rem;
 }
 
+.w-\[40px\] {
+  width: 40px;
+}
+
 .w-\[95px\] {
   width: 95px;
 }
@@ -760,10 +768,6 @@ video {
 
 .w-\[44px\] {
   width: 44px;
-}
-
-.w-\[40px\] {
-  width: 40px;
 }
 
 .w-\[204px\] {
@@ -845,6 +849,10 @@ video {
 
 .list-disc {
   list-style-type: disc;
+}
+
+.list-decimal {
+  list-style-type: decimal;
 }
 
 .grid-cols-2 {
@@ -939,16 +947,16 @@ video {
   overflow: hidden;
 }
 
+.rounded-md {
+  border-radius: 0.375rem;
+}
+
 .rounded-\[20px\] {
   border-radius: 20px;
 }
 
 .rounded-lg {
   border-radius: 0.5rem;
-}
-
-.rounded-md {
-  border-radius: 0.375rem;
 }
 
 .rounded-tl-\[20px\] {
@@ -1036,6 +1044,11 @@ video {
   background-color: rgb(42 149 171 / var(--tw-bg-opacity));
 }
 
+.bg-\[\#4436AC\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(68 54 172 / var(--tw-bg-opacity));
+}
+
 .p-4 {
   padding: 1rem;
 }
@@ -1070,6 +1083,11 @@ video {
   padding-right: 1.5rem;
 }
 
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
@@ -1100,11 +1118,6 @@ video {
   padding-bottom: 1rem;
 }
 
-.py-16 {
-  padding-top: 4rem;
-  padding-bottom: 4rem;
-}
-
 .py-20 {
   padding-top: 5rem;
   padding-bottom: 5rem;
@@ -1112,10 +1125,6 @@ video {
 
 .pt-10 {
   padding-top: 2.5rem;
-}
-
-.pb-8 {
-  padding-bottom: 2rem;
 }
 
 .pb-20 {
@@ -1154,12 +1163,12 @@ video {
   font-family: Sofia-400;
 }
 
-.font-Lota400 {
-  font-family: Lota-400;
-}
-
 .font-Lota600 {
   font-family: Lota-600;
+}
+
+.font-Lota400 {
+  font-family: Lota-400;
 }
 
 .font-Lota300 {
@@ -1554,10 +1563,6 @@ body {
     justify-content: space-between;
   }
 
-  .lg\:justify-items-center {
-    justify-items: center;
-  }
-
   .lg\:gap-10 {
     gap: 2.5rem;
   }
@@ -1570,32 +1575,9 @@ body {
     gap: 1.75rem;
   }
 
-  .lg\:gap-3 {
-    gap: 0.75rem;
-  }
-
-  .lg\:px-20 {
-    padding-left: 5rem;
-    padding-right: 5rem;
-  }
-
-  .lg\:px-16 {
-    padding-left: 4rem;
-    padding-right: 4rem;
-  }
-
   .lg\:py-10 {
     padding-top: 2.5rem;
     padding-bottom: 2.5rem;
-  }
-
-  .lg\:px-10 {
-    padding-left: 2.5rem;
-    padding-right: 2.5rem;
-  }
-
-  .lg\:pb-24 {
-    padding-bottom: 6rem;
   }
 
   .lg\:text-5xl {
@@ -1606,12 +1588,12 @@ body {
     font-size: 1.953rem;
   }
 
-  .lg\:text-4xl {
-    font-size: 36px ;
-  }
-
   .lg\:text-2xl {
     font-size: 24px;
+  }
+
+  .lg\:text-xl {
+    font-size: 1.25rem;
   }
 
   .lg\:text-lg {
@@ -1623,12 +1605,12 @@ body {
     font-size: 80px;
   }
 
-  .lg\:text-base {
-    font-size: 1rem;
+  .lg\:text-4xl {
+    font-size: 36px ;
   }
 
-  .lg\:text-xl {
-    font-size: 1.25rem;
+  .lg\:text-base {
+    font-size: 1rem;
   }
 
   .lg\:leading-8 {

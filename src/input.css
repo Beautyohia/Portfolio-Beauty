@@ -25,6 +25,12 @@
 
 /* Lota fonts import */
 @font-face {
+  font-family: "Lota-250";
+  src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Thin\ Italic.otf");
+}
+
+
+@font-face {
   font-family: "Lota-300";
   src: url("../dist/fonts/Lota/Los\ Andes\ \ Lota\ Grotesque\ Light.otf");
 }
